@@ -1,6 +1,6 @@
 const { execSync } = require('child_process')
 
-const port = process.env.PORT || 8080
+const port = process.env.PORT || 8081
 let cmd = `serve --listen ${port}`
 
 if (process.env.CI) cmd += ` --no-clipboard`
